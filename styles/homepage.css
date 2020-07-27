@@ -25,3 +25,31 @@
     border-radius:  5px;
 }
 
+/* feature section style */
+.feature-section{
+    height: 400px;
+    background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
+    background-color: #cea135;
+    border-top: 10px solid white;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.feature-section > .column-wrapper {
+    width: 1000 px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    padding: 20px;
+    margin: 45px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
