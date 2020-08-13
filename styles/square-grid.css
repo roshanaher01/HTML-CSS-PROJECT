@@ -1,0 +1,36 @@
+.squares-wraper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.squares-wraper > .squares { 
+    width: 1000px;
+}
+
+.squares-wraper > .squares > .square { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.square > .image-wraper img { 
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.square > .square-text-wraper { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 42px; 
+  letter-spacing: 1px;
+}
+
+.square > .square-text-wraper h1 {
+    color: #cea135;
+}
+

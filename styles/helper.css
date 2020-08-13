@@ -1,0 +1,16 @@
+/* helper */
+
+.square60 {
+    height: 60px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus {
+    outline: none;
+}
+
+    
