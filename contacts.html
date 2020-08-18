@@ -3,17 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>Contact</title>
 
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/fa578b4684.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/homepage.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/skwed-header.css" />
+    <link rel="stylesheet" href="styles/page-container.css" />
+    <link rel="stylesheet" href="styles/square-grid.css" />
+    <link rel="stylesheet" href="styles/helper.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+
+
+
 
 </head>
-<body>
-    <h1>Contacts</h1>
+  <body>
+    <div class="skewed-header">
+        <div class="header-bg" style="background-image: url(images/backgrounds/contact.jpg);"></div>
 
-    <a href="index.html">Homepage</a>
-    <a href="menu.html">Menu</a>
-    <a href="contacts.html">Contacts</a>
-    <a href="about.html">About</a>
-</body>
-</html>
+        <div class="skewed-header-wraper">
+            <div class="skewed-header-content">
+                <div class="headeding-wraper">
+                    <h1>Contacts</h1>
+                </div>
+
+                <div class="links-wrapper">             
+                    <div class="nav-link">
+                        <a href="index.html">Homepage</a>
+                    </div>
+                    <div class="nav-link">    
+                        <a href="menu.html">Menu</a>
+                    </div>
+                    <div class="nav-link">    
+                        <a href="contacts.html">Contacts</a>
+                    </div>
+                    <div class="nav-link">   
+                        <a href="about.html">About</a>
+                    </div>    
+                </div>
+
+            </div>
+        </div>
+    </div>
+     <div class="page-container">
+        <div class="contact-grid-wraper">
+            <div class="contact-metadata-sidebar-wraper">
+                <div class="logo">
+                    <img src="images/logos/decamp-fantastic-fries-logo-dark.png" alt="logo">
+                </div>
+
+                <div class="company-details-wraper">
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    <div>
+                        Chandori <br> NAshik-02
+                    </div>
+                </div>
+                <div class="company-details-wraper">
+                    <i class="fas fa-phone-volume"></i>
+
+                    <div>
+                       976 222 2445
+                    </div>
+                </div>
+                <div class="company-details-wraper">
+                    <i class="far fa-clock"></i>
+
+                    <div>
+                        10AM-MIDNIGHT
+                     </div>
+                </div>
+
+            </div>
+
+            <div class="form">
+                <div class="form-group">
+                    <input type="text" id="fullname" placeholder="Your name">
+                    <label for="fullname">Your name</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your email">
+                    <label for="email">Your email</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="message"></textarea>
+                    <label for="message">Message</label> 
+                </div>
+
+                <div class="center-btn-wrapper">
+                    <button type="submit" class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="square60"></div>
+
+     <div class="footer">
+        <div class="logo-footer">
+            <img src="images/logos/decamp-fantastic-fries-logo-white.png" alt="logo">
+        </div>
+        <div class="footer-phone-hour">
+            <span class="phone">976 222 2445</span>
+            <span class="hour">10AM - Midnight</span>
+        </div>
+        <div class="links-wrapper">             
+            <div class="nav-link">
+                <a href="index.html">Homepage</a>
+            </div>
+            <div class="nav-link">    
+                <a href="menu.html">Menu</a>
+            </div>
+            <div class="nav-link">    
+                <a href="contacts.html">Contacts</a>
+            </div>
+            <div class="nav-link">   
+                <a href="about.html">About</a>
+            </div>    
+        </div>
+        <div class="social-media-icon-wraper">
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <div class="copyright-wraper">
+            &copy; 2020 DevCamp &#124; All rightd are reserved.
+    
+        </div>
+    </div>
+  </body>   
+ </html>
