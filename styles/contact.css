@@ -22,3 +22,15 @@
     font-size: 1.25em;
 }
 
+.contact-metadata-sidebar-wraper > .company-details-wraper i {
+    color: #cea135;
+}
+
+.center-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
